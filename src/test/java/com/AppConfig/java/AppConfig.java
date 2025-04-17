@@ -1,7 +1,4 @@
 package com.AppConfig.java;
-
-
-
 import com.customclass.java.HelloBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,5 +10,3 @@ public class AppConfig {
         return new HelloBean();
     }
 }
-
-
